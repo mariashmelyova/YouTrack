@@ -40,16 +40,7 @@ public class IssueMethods {
                         post("user/login");
 
         cookies = response.getDetailedCookies();
-//        RestAssured.baseURI = "https://gorest.myjetbrains.com/youtrack/rest/";
-//
-//        Response response =
-//                given().
-//                        param("login", "m.shmelyova@gmail.com").
-//                        param("password", "qwerty123").
-//                        when().
-//                        post("/user/login");
-//
-//        cookies = response.getDetailedCookies();
+
 
     }
     @Test
